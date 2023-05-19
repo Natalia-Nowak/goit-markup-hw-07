@@ -1,0 +1,8 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontWeight": "normal"
+}
