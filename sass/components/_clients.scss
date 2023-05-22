@@ -1,0 +1,30 @@
+.clients {
+  &__header {
+    @extend .header__primary;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  &__block {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover > svg *,
+    &:hover {
+      border: 1px solid #2196f3;
+      fill: $backgroud-color-active;
+    }
+  }
+  &__icon {
+    fill: $icon-color-primary;
+  }
+}

@@ -1,0 +1,67 @@
+.menu {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__container__navigation {
+    gap: 46px;
+  }
+  &__underline {
+    position: relative;
+  }
+  &__underline--agency::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    display: block;
+    background-color: $backgroud-color-active;
+    border-radius: 2px;
+    margin-top: 28px;
+    width: 53px;
+  }
+  &__underline--portfolio::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    display: block;
+    background-color: $backgroud-color-active;
+    border-radius: 2px;
+    margin-top: 28px;
+    width: 58px;
+  }
+  &__navigation__link {
+    font-weight: 500;
+    line-height: 1.1;
+    color: $text-color-primary;
+    font-size: $font-size-primary;
+
+    &:hover {
+      color: $text-color-active;
+    }
+  }
+  &__container__address {
+    gap: 50px;
+  }
+  &__address__container {
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+    fill: $icon-color-tertiary;
+    margin-right: 10px;
+  }
+  &__address__link {
+    font-weight: 500;
+    line-height: 1.1;
+    color: $text-color-primary;
+    font-size: $font-size-primary;
+  }
+  &__address__container:hover > svg *,
+  &__address__container:hover &__address__link,
+  &__address__container:hover {
+    fill: $text-color-active;
+    color: $text-color-active;
+    cursor: pointer;
+  }
+}

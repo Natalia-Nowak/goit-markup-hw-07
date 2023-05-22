@@ -1,0 +1,84 @@
+.footer {
+  background: $backgroud-color-primary;
+  display: flex;
+  justify-content: center;
+  &__container {
+    display: flex;
+  }
+  &__container__address {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__address__list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  &__address__item {
+    color: $text-color-secondary;
+    font-size: $font-size-primary;
+    line-height: 1.5;
+  }
+  &__block__container {
+    margin-left: 70px;
+  }
+  &__header {
+    color: $text-color-secondary;
+    font-weight: $font-weight-tertiary;
+    font-size: $font-size-primary;
+    line-height: 1.1;
+    padding-bottom: 20px;
+  }
+  &__sm__list {
+    display: flex;
+    gap: 10px;
+  }
+  &__sm__item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #44454e;
+    border-radius: 50px;
+
+    &:hover {
+      fill: $icon-color-quaternary;
+      background-color: $backgroud-color-active;
+    }
+  }
+  &__sm__icon {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+  }
+  &__form {
+    display: flex;
+    gap: 12px;
+  }
+  &__input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: $backgroud-color-primary;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    &:focus {
+      color: $icon-color-quaternary;
+    }
+  }
+  &__button {
+    @extend .button__primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px 10px 42px;
+    gap: 24px;
+  }
+  &__button__icon {
+    fill: $icon-color-quaternary;
+  }
+}

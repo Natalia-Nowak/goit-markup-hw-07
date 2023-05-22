@@ -1,0 +1,27 @@
+.service {
+  &__header {
+    @extend .header__primary;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+  }
+  &__box {
+    position: relative;
+    display: inline-flex;
+  }
+  &__title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: $text-color-secondary;
+    bottom: 0;
+    padding: 27px 0 27px 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+button {
+  font-family: $font-primary;
+  border: none;
+  cursor: pointer;
+}
+input {
+  border: none;
+  outline: none;
+}
+textarea {
+  outline: none;
+  resize: none;
+}
+body {
+  font-family: $font-primary;
+  color: $text-color-primary;
+  letter-spacing: 0.03em;
+}

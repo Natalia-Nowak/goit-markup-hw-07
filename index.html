@@ -19,99 +19,111 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/sass/main.css" />
   </head>
   <body>
-    <header class="nav-row section-menu">
-      <div class="container container-menu">
-        <nav class="container-menu">
+    <header class="section__menu menu">
+      <div class="container menu__container">
+        <nav class="menu__container">
           <a class="logo" href="index.html"
-            >Web<span class="logo-shadow">Studio</span></a
+            >Web<span class="logo--shadow">Studio</span></a
           >
-          <ul class="container-menu container-menu-nav">
-            <li class="nav-underline nav-underline-agency">
-              <a class="nav-link" href="index.html">Agencja</a>
+          <ul class="menu__container menu__container__navigation">
+            <li class="menu__underline menu__underline--agency">
+              <a class="menu__navigation__link" href="index.html">Agencja</a>
             </li>
-            <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link" href="#">Kontakt</a></li>
+            <li class="menu__underline">
+              <a class="menu__navigation__link" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="menu__navigation__link" href="#">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="container-menu container-menu-address">
-          <li class="container-menu-icons">
-            <svg width="16px" height="12px" class="menu-icons">
+        <ul class="menu__container menu__container__address">
+          <li class="menu__address__container">
+            <svg width="16px" height="12px" class="menu__icon">
               <use href="./images/icons.svg#icon-envelope-icon"></use>
             </svg>
-            <a class="menu-address" href="info@devstudio.com">
+            <a class="menu__address__link" href="info@devstudio.com">
               info@devstudio.com</a
             >
           </li>
-          <li class="container-menu-icons">
-            <svg width="10px" height="16px" class="menu-icons">
+          <li class="menu__address__container">
+            <svg width="10px" height="16px" class="menu__icon">
               <use href="./images/icons.svg#icon-smartphone-icon"></use>
             </svg>
-            <a class="menu-address" href="tel:12127724150"> +1 212-772-4150</a>
+            <a class="menu__address__link" href="tel:12127724150">
+              +1 212-772-4150</a
+            >
           </li>
         </ul>
       </div>
     </header>
     <main>
       <!--HERO-->
-      <section class="top-row section">
-        <div class="container container-head-row">
-          <h1 class="top-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button data-modal-open type="button" class="button-primary">
+      <section class="section hero">
+        <div class="container hero__container">
+          <h1 class="hero__header">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button
+            data-modal-open
+            type="button"
+            class="button__primary hero__button"
+          >
             Zamów usługe
           </button>
         </div>
       </section>
-      <!--DESCRIPTION-->
-      <section class="section-description">
+      <!--ADVANTAGES-->
+      <section class="advantages">
         <div class="container">
-          <ul class="container-description">
+          <ul class="advantages__list">
             <li>
-              <div class="description-icons-box">
-                <svg width="70px" height="70px" class="description-icons">
+              <div class="advantages__iconbox">
+                <svg width="70px" height="70px" class="advantages__icon">
                   <use href="./images/icons.svg#icon-antenna-icon"></use>
                 </svg>
               </div>
-              <h3 class="header-secondary">LOREM IPSUM</h3>
-              <p class="description-secondary">
+              <h3 class="advantages__header header__secondary">LOREM IPSUM</h3>
+              <p class="advantages__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="description-icons-box">
-                <svg width="70px" height="70px" class="description-icons">
+              <div class="advantages__iconbox">
+                <svg width="70px" height="70px" class="advantages__icon">
                   <use href="./images/icons.svg#icon-clock-icon"></use>
                 </svg>
               </div>
-              <h3 class="header-secondary">LOREM IPSUM</h3>
-              <p class="description-secondary">
+              <h3 class="advantages__header header__secondary">LOREM IPSUM</h3>
+              <p class="advantages__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="description-icons-box">
-                <svg width="70px" height="70px" class="description-icons">
+              <div class="advantages__iconbox">
+                <svg width="70px" height="70px" class="advantages__icon">
                   <use href="./images/icons.svg#icon-diagram-icon"></use>
                 </svg>
               </div>
-              <h3 class="header-secondary">LOREM IPSUM</h3>
-              <p class="description-secondary">
+              <h3 class="advantages__header header__secondary">LOREM IPSUM</h3>
+              <p class="advantages__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="description-icons-box">
-                <svg width="70px" height="70px" class="description-icons">
+              <div class="advantages__iconbox">
+                <svg width="70px" height="70px" class="advantages__icon">
                   <use href="./images/icons.svg#icon-astronaut-icon"></use>
                 </svg>
               </div>
-              <h3 class="header-secondary">LOREM IPSUM</h3>
-              <p class="description-secondary">
+              <h3 class="advantages__header header__secondary">LOREM IPSUM</h3>
+              <p class="advantages__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -120,45 +132,45 @@
         </div>
       </section>
       <!--WHAT WE DO-->
-      <section class="section">
+      <section class="section service">
         <div class="container">
-          <h2 class="header-primary">Czym się zajmujemy</h2>
-          <ul class="container-photoboxes">
+          <h2 class="service__header header__primary">Czym się zajmujemy</h2>
+          <ul class="service__list">
             <li>
-              <figure class="photobox-block">
+              <figure class="service__box">
                 <img
                   src="images/what_we_do_1.jpg"
                   alt="Person typing"
                   width="370"
                   height="294"
                 />
-                <figcaption class="photobox-title">
+                <figcaption class="service__title">
                   APLIKACJE KOMPUTEROWE
                 </figcaption>
               </figure>
             </li>
             <li>
-              <figure class="photobox-block">
+              <figure class="service__box">
                 <img
                   src="images/what_we_do_2.jpg"
                   alt="Person holding phone"
                   width="370"
                   height="294"
                 />
-                <figcaption class="photobox-title">
+                <figcaption class="service__title">
                   APLIKACJE MOBILNE
                 </figcaption>
               </figure>
             </li>
             <li>
-              <figure class="photobox-block">
+              <figure class="service__box">
                 <img
                   src="images/what_we_do_3.jpg"
                   alt="Person holding tablet"
                   width="370"
                   height="294"
                 />
-                <figcaption class="photobox-title">
+                <figcaption class="service__title">
                   ROZWIĄZANIA GRAFICZNE
                 </figcaption>
               </figure>
@@ -167,164 +179,164 @@
         </div>
       </section>
       <!--OUR TEAM-->
-      <section class="team-row section">
+      <section class="section team">
         <div class="container">
-          <h2 class="header-primary">Our Team</h2>
-          <ul class="container-team-row">
-            <li class="team-block">
+          <h2 class="team__header header__primary">Our Team</h2>
+          <ul class="team__list">
+            <li class="team__block">
               <img
                 src="images/team_member_1.jpg"
                 alt="Team member"
                 width="270"
                 height="260"
               />
-              <h3 class="header-team">Christopher Walker</h3>
-              <p class="job-title">Product Designer</p>
-              <ul class="sm-team-icons-box">
+              <h3 class="team__name">Christopher Walker</h3>
+              <p class="team__jobtitle">Product Designer</p>
+              <ul class="team__sm__row">
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-instagram-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-twitter-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-facebook-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-linkedin-icon"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="team-block">
+            <li class="team__block">
               <img
                 src="images/team_member_2.jpg"
                 alt="Team member"
                 width="270"
                 height="260"
               />
-              <h3 class="header-team">Kylie Evans</h3>
-              <p class="job-title">Frontend Developer</p>
-              <ul class="sm-team-icons-box">
-                <li class="container-team-sm-icons">
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+              <h3 class="team__name">Kylie Evans</h3>
+              <p class="team__jobtitle">Frontend Developer</p>
+              <ul class="team__sm__row">
+                <li>
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-instagram-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-twitter-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-facebook-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-linkedin-icon"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="team-block">
+            <li class="team__block">
               <img
                 src="images/team_member_3.jpg"
                 alt="Team member"
                 width="270"
                 height="260"
               />
-              <h3 class="header-team">Ryan Harris</h3>
-              <p class="job-title">Marketing</p>
-              <ul class="sm-team-icons-box">
+              <h3 class="team__name">Ryan Harris</h3>
+              <p class="team__jobtitle">Marketing</p>
+              <ul class="team__sm__row">
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-instagram-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-twitter-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-facebook-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-linkedin-icon"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="team-block">
+            <li class="team__block">
               <img
                 src="images/team_member_4.jpg"
                 alt="Team member"
                 width="270"
                 height="260"
               />
-              <h3 class="header-team">Tyler Moore</h3>
-              <p class="job-title">UI Designer</p>
-              <ul class="sm-team-icons-box">
+              <h3 class="team__name">Tyler Moore</h3>
+              <p class="team__jobtitle">UI Designer</p>
+              <ul class="team__sm__row">
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-instagram-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-twitter-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-facebook-icon"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="sm-team-icons-wrapper">
-                    <svg width="20px" height="20px" class="sm-team-icons">
+                  <a href="#" class="team__sm__link">
+                    <svg width="20px" height="20px" class="team__sm__icon">
                       <use href="./images/icons.svg#icon-linkedin-icon"></use>
                     </svg>
                   </a>
@@ -334,38 +346,39 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <!--OUR CLIENTS-->
+      <section class="section clients">
         <div class="container">
-          <h2 class="header-primary">Nasi klienci</h2>
-          <ul class="container-clients">
-            <li class="clients-block">
-              <svg width="41px" height="46.7px" class="client-icons">
+          <h2 class="clients__header header__primary">Nasi klienci</h2>
+          <ul class="clients__list">
+            <li class="clients__block">
+              <svg width="41px" height="46.7px" class="clients__icon">
                 <use href="./images/icons.svg#icon-client-icon-1"></use>
               </svg>
             </li>
 
-            <li class="clients-block">
-              <svg width="40px" height="52px" class="client-icons">
+            <li class="clients__block">
+              <svg width="40px" height="52px" class="clients__icon">
                 <use href="./images/icons.svg#icon-client-icon-2"></use>
               </svg>
             </li>
-            <li class="clients-block">
-              <svg width="43.46px" height="41.18px" class="client-icons">
+            <li class="clients__block">
+              <svg width="43.46px" height="41.18px" class="clients__icon">
                 <use href="./images/icons.svg#icon-client-icon-3"></use>
               </svg>
             </li>
-            <li class="clients-block">
-              <svg width="84.44px" height="40.62px" class="client-icons">
+            <li class="clients__block">
+              <svg width="84.44px" height="40.62px" class="clients__icon">
                 <use href="./images/icons.svg#icon-client-icon-4"></use>
               </svg>
             </li>
-            <li class="clients-block">
-              <svg width="62.54px" height="45.43px" class="client-icons">
+            <li class="clients__block">
+              <svg width="62.54px" height="45.43px" class="clients__icon">
                 <use href="./images/icons.svg#icon-client-icon-5"></use>
               </svg>
             </li>
-            <li class="clients-block">
-              <svg width="93.79px" height="43.93px" class="client-icons">
+            <li class="clients__block">
+              <svg width="93.79px" height="43.93px" class="clients__icon">
                 <use href="./images/icons.svg#icon-client-icon-6"></use>
               </svg>
             </li>
@@ -373,31 +386,31 @@
         </div>
       </section>
     </main>
-    <footer class="footer section-footer">
-      <div class="container container-footer">
-        <div class="container-footer-row">
+    <footer class="footer section__footer">
+      <div class="container footer__container">
+        <div class="footer__container__address">
           <a class="logo" href="index.html"
-            >Web<span class="logo-highlight">Studio</span></a
+            >Web<span class="logo--highlight">Studio</span></a
           >
           <address>
-            <ul>
-              <li class="footer-address-line">
+            <ul class="footer__address__list">
+              <li>
                 <a
-                  class="footer-address"
+                  class="footer__address__item"
                   href="https://goo.gl/maps/or7kZfwXVYHktjDK6"
                   >m. Warszawa, Aleje Jerozolimskie 21</a
                 >
               </li>
-              <li class="footer-address-line">
+              <li>
                 <a
-                  class="footer-address footer-address-opacity"
+                  class="footer__address__item footer__address__item__opacity"
                   href="info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-address-line">
+              <li>
                 <a
-                  class="footer-address footer-address-opacity"
+                  class="footer__address__item footer__address__item__opacity"
                   href="tel:12127724150"
                   >+1 212-772-4150</a
                 >
@@ -405,51 +418,55 @@
             </ul>
           </address>
         </div>
-        <div class="container-footer-sm">
-          <h4 class="header-footer">DOŁĄCZ DO NAS</h4>
-          <ul class="container-icons-footer">
+        <div class="footer__block__container">
+          <h4 class="footer__header">DOŁĄCZ DO NAS</h4>
+          <ul class="footer__sm__list">
             <li>
-              <a href="#" class="sm-footer-icons-wrapper">
-                <svg width="20px" height="20px" class="sm-footer-icons">
+              <a href="#" class="footer__sm__item">
+                <svg width="20px" height="20px" class="footer__sm__icon">
                   <use href="./images/icons.svg#icon-instagram-icon"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="sm-footer-icons-wrapper">
-                <svg width="20px" height="20px" class="sm-footer-icons">
+              <a href="#" class="footer__sm__item">
+                <svg width="20px" height="20px" class="footer__sm__icon">
                   <use href="./images/icons.svg#icon-twitter-icon"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="sm-footer-icons-wrapper">
-                <svg width="20px" height="20px" class="sm-footer-icons">
+              <a href="#" class="footer__sm__item">
+                <svg width="20px" height="20px" class="footer__sm__icon">
                   <use href="./images/icons.svg#icon-facebook-icon"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="sm-footer-icons-wrapper">
-                <svg width="20px" height="20px" class="sm-footer-icons">
+              <a href="#" class="footer__sm__item">
+                <svg width="20px" height="20px" class="footer__sm__icon">
                   <use href="./images/icons.svg#icon-linkedin-icon"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="container-footer-sm">
-          <h4 class="header-footer">ZAPISZ SIĘ DO NEWSLETTERA</h4>
-          <form class="form-footer">
+        <div class="footer__block__container">
+          <h4 class="footer__header">ZAPISZ SIĘ DO NEWSLETTERA</h4>
+          <form class="footer__form">
             <input
-              class="input-footer"
+              class="footer__input"
               placeholder="E-mail"
               type="email"
               name="E-mail"
               required
             />
-            <button class="button-newsletter" type="submit">
-              Zapisz się<svg width="24px" height="24px" class="send-icon">
+            <button class="button__primary footer__button" type="submit">
+              Zapisz się<svg
+                width="24px"
+                height="24px"
+                class="footer__button__icon"
+              >
                 <use href="./images/icons.svg#icon-send-icon"></use>
               </svg>
             </button>
@@ -459,62 +476,62 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form class="modal-form">
-          <p class="form-title-primary">
-            Zostaw swoje dane w formularzu poniżej
-          </p>
-          <label class="form-title-secondary" for="name">Imię</label>
-          <label class="form-input">
-            <svg width="12px" height="12px" class="modal-icons">
+        <form class="modal__form">
+          <h3 class="modal__header">Zostaw swoje dane w formularzu poniżej</h3>
+          <label class="modal__title" for="name">Imię</label>
+          <label class="modal__input modal__input__title">
+            <svg width="12px" height="12px" class="modal__icon">
               <use href="./images/icons.svg#icon-person-modal"></use>
             </svg>
             <input type="text" name="name" id="name" required />
           </label>
-          <label class="form-title-secondary" for="phone">Telefon</label>
-          <label class="form-input">
-            <svg width="13px" height="13px" class="modal-icons">
+          <label class="modal__title" for="phone">Telefon</label>
+          <label class="modal__input modal__input__title">
+            <svg width="13px" height="13px" class="modal__icon">
               <use href="./images/icons.svg#icon-telephone-modal"></use>
             </svg>
             <input type="tel" name="phone" id="phone" />
           </label>
-          <label class="form-title-secondary" for="email">Email</label>
-          <label class="form-input">
-            <svg width="15px" height="12px" class="modal-icons">
+          <label class="modal__title" for="email">Email</label>
+          <label class="modal__input modal__input__title">
+            <svg width="15px" height="12px" class="modal__icon">
               <use href="./images/icons.svg#icon-envelope-modal"></use>
             </svg>
             <input type="email" name="email" id="email" required />
           </label>
-          <label class="form-title-secondary" for="comment">Komentarz</label>
+          <label class="modal__title" for="comment">Komentarz</label>
           <textarea
-            class="form-input-comment"
+            class="modal__input modal__input__comment"
             id="comment"
             name="comment"
             rows="5"
             placeholder="Wprowadź tekst"
           ></textarea>
-          <div class="form-checkbox">
-            <label class="checkbox-control">
+          <div class="modal__checkbox">
+            <label class="modal__checkbox__control">
               <input
-                class="checkbox-input"
+                class="modal__checkbox__input"
                 type="checkbox"
                 id="check"
                 name="check"
                 value="1"
               />
-              <label class="checkbox-label" for="check"></label>
+              <label class="modal__checkbox__label" for="check"></label>
               <div>
                 Oświadczam iż akceptuję
-                <a class="policy-link" href="#">Regulamin</a> i
-                <a class="policy-link" href="#">Politykę Prywatności.</a>
+                <a class="modal__link" href="#">Regulamin</a> i
+                <a class="modal__link" href="#">Politykę Prywatności.</a>
               </div>
             </label>
           </div>
-          <div class="button-modal-submit-box">
-            <button class="button-modal-submit" type="submit">Wyślij</button>
+          <div class="modal__button__box">
+            <button class="button__primary modal__button__submit" type="submit">
+              Wyślij
+            </button>
           </div>
         </form>
-        <button class="button-modal-close" data-modal-close>
-          <svg width="30px" height="30px" class="button-modal-icon">
+        <button class="modal__button__close" data-modal-close>
+          <svg width="30px" height="30px" class="modal__button__icon">
             <use href="./images/icons.svg#icon-close-icon"></use>
           </svg>
         </button>
