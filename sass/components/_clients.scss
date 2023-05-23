@@ -1,7 +1,5 @@
 .clients {
-  &__header {
-    @extend .header__primary;
-  }
+  @extend .header__primary;
   &__list {
     display: flex;
     justify-content: center;
