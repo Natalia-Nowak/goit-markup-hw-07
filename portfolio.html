@@ -11,41 +11,41 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="sass/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    <header class="section__menu menu">
+    <header class="menu">
       <div class="container menu__container">
         <nav class="menu__container">
           <a class="logo" href="index.html"
-            >Web<span class="logo--shadow">Studio</span></a
+            >Web<span class="logo-shadow">Studio</span></a
           >
-          <ul class="menu__container menu__container__navigation">
-            <li class="menu__underline nav-underline-agency">
-              <a class="menu__navigation__link" href="index.html">Agencja</a>
+          <ul class="menu__container menu__navigation">
+            <li class="menu__underline">
+              <a class="menu__navigation-link" href="index.html">Agencja</a>
             </li>
-            <li class="menu__underline menu__underline--portfolio">
-              <a class="menu__navigation__link" href="portfolio.html"
+            <li class="menu__underline menu__underline-portfolio">
+              <a class="menu__navigation-link" href="portfolio.html"
                 >Portfolio</a
               >
             </li>
-            <li><a class="menu__navigation__link" href="#">Kontakt</a></li>
+            <li><a class="menu__navigation-link" href="#">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="menu__container menu__container__address">
-          <li class="menu__address__container">
+        <ul class="menu__container menu__address">
+          <li class="menu__address-container">
             <svg width="16px" height="12px" class="menu__icon">
               <use href="./images/icons.svg#icon-envelope-icon"></use>
             </svg>
-            <a class="menu__address__link" href="info@devstudio.com">
+            <a class="menu__address-link" href="info@devstudio.com">
               info@devstudio.com</a
             >
           </li>
-          <li class="menu__address__container">
+          <li class="menu__address-container">
             <svg width="10px" height="16px" class="menu__icon">
               <use href="./images/icons.svg#icon-smartphone-icon"></use>
             </svg>
-            <a class="menu__address__link" href="tel:12127724150">
+            <a class="menu__address-link" href="tel:12127724150">
               +1 212-772-4150</a
             >
           </li>
@@ -56,7 +56,7 @@
     <main>
       <section class="section portfolio">
         <div class="container">
-          <ul class="portfolio__button__list">
+          <ul class="portfolio__button-list">
             <li>
               <button type="button" class="button__secondary portfolio__button">
                 Wszystkie
@@ -83,10 +83,10 @@
               </button>
             </li>
           </ul>
-          <ul class="portfolio__post__list">
-            <li class="portfolio__list__item">
+          <ul class="portfolio__list">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_1.jpg"
                     alt="project_photo"
@@ -102,13 +102,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Technoduck</h3>
-                  <p class="portfolio__project__type">Strona internetowa</p>
+                  <p class="portfolio__project-type">Strona internetowa</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_2.jpg"
                     alt="project_photo"
@@ -126,13 +126,13 @@
                   <h3 class="portfolio__header">
                     Poster New Orlean vs Golden Star
                   </h3>
-                  <p class="portfolio__project__type">Dizajn</p>
+                  <p class="portfolio__project-type">Dizajn</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_3.jpg"
                     alt="project_photo"
@@ -148,13 +148,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Seafood Restaurant</h3>
-                  <p class="portfolio__project__type">Aplikacja</p>
+                  <p class="portfolio__project-type">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_4.jpg"
                     alt="project_photo"
@@ -170,13 +170,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Project Prime</h3>
-                  <p class="portfolio__project__type">Marketing</p>
+                  <p class="portfolio__project-type">Marketing</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_5.jpg"
                     alt="project_photo"
@@ -192,13 +192,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Project Boxes</h3>
-                  <p class="portfolio__project__type">Aplikacja</p>
+                  <p class="portfolio__project-type">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_6.jpg"
                     alt="project_photo"
@@ -214,13 +214,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Inspiration has no Borders</h3>
-                  <p class="portfolio__project__type">Strona internetowa</p>
+                  <p class="portfolio__project-type">Strona internetowa</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_7.jpg"
                     alt="project_photo"
@@ -236,13 +236,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Limited Edition</h3>
-                  <p class="portfolio__project__type">Dizajn</p>
+                  <p class="portfolio__project-type">Dizajn</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_8.jpg"
                     alt="project_photo"
@@ -258,13 +258,13 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Project LAB</h3>
-                  <p class="portfolio__project__type">Marketing</p>
+                  <p class="portfolio__project-type">Marketing</p>
                 </figcaption>
               </figure>
             </li>
-            <li class="portfolio__list__item">
+            <li class="portfolio__list-item">
               <figure class="portfolio__card">
-                <div class="portfolio__post__box">
+                <div class="portfolio__post">
                   <img
                     src="images/post_9.jpg"
                     alt="project_photo"
@@ -280,7 +280,7 @@
                 </div>
                 <figcaption>
                   <h3 class="portfolio__header">Growing Business</h3>
-                  <p class="portfolio__project__type">Aplikacja</p>
+                  <p class="portfolio__project-type">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
@@ -288,31 +288,31 @@
         </div>
       </section>
     </main>
-    <footer class="footer section__footer">
+    <footer class="footer">
       <div class="container footer__container">
-        <div class="footer__container__address">
+        <div class="footer__container-address">
           <a class="logo" href="index.html"
-            >Web<span class="logo--highlight">Studio</span></a
+            >Web<span class="logo-highlight">Studio</span></a
           >
           <address>
-            <ul class="footer__address__list">
+            <ul class="footer__address-list">
               <li>
                 <a
-                  class="footer__address__item"
+                  class="footer__address-item"
                   href="https://goo.gl/maps/or7kZfwXVYHktjDK6"
                   >m. Warszawa, Aleje Jerozolimskie 21</a
                 >
               </li>
               <li>
                 <a
-                  class="footer__address__item footer__address__item__opacity"
+                  class="footer__address-item footer__address-item-opacity"
                   href="info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
                 <a
-                  class="footer__address__item footer__address__item__opacity"
+                  class="footer__address-item footer__address-item-opacity"
                   href="tel:12127724150"
                   >+1 212-772-4150</a
                 >
@@ -320,40 +320,40 @@
             </ul>
           </address>
         </div>
-        <div class="footer__block__container">
+        <div class="footer__block-container">
           <h4 class="footer__header">DOŁĄCZ DO NAS</h4>
-          <ul class="footer__sm__list">
+          <ul class="footer__sm-list">
             <li>
-              <a href="#" class="footer__sm__item">
-                <svg width="20px" height="20px" class="footer__sm__icon">
+              <a href="#" class="footer__sm-item">
+                <svg width="20px" height="20px" class="footer__sm-icon">
                   <use href="./images/icons.svg#icon-instagram-icon"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="footer__sm__item">
-                <svg width="20px" height="20px" class="footer__sm__icon">
+              <a href="#" class="footer__sm-item">
+                <svg width="20px" height="20px" class="footer__sm-icon">
                   <use href="./images/icons.svg#icon-twitter-icon"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="footer__sm__item">
-                <svg width="20px" height="20px" class="footer__sm__icon">
+              <a href="#" class="footer__sm-item">
+                <svg width="20px" height="20px" class="footer__sm-icon">
                   <use href="./images/icons.svg#icon-facebook-icon"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="footer__sm__item">
-                <svg width="20px" height="20px" class="footer__sm__icon">
+              <a href="#" class="footer__sm-item">
+                <svg width="20px" height="20px" class="footer__sm-icon">
                   <use href="./images/icons.svg#icon-linkedin-icon"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer__block__container">
+        <div class="footer__block-container">
           <h4 class="footer__header">ZAPISZ SIĘ DO NEWSLETTERA</h4>
           <form class="footer__form">
             <input
@@ -367,7 +367,7 @@
               Zapisz się<svg
                 width="24px"
                 height="24px"
-                class="footer__button__icon"
+                class="footer__button-icon"
               >
                 <use href="./images/icons.svg#icon-send-icon"></use>
               </svg>

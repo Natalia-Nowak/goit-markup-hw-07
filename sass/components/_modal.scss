@@ -39,7 +39,7 @@
       fill: $backgroud-color-active;
     }
   }
-  &__input__title {
+  &__input-title {
     display: inline-flex;
     align-items: center;
     margin: 4px 40px 10px 40px;
@@ -48,13 +48,13 @@
     color: $icon-color-secondary;
     margin: 12px;
   }
-  &__input__comment {
+  &__input-comment {
     color: rgba(117, 117, 117, 0.5);
     margin: 4px 0 20px 40px;
     padding: 12px 16px;
     height: 120px;
 
-    &__input__comment:focus {
+    &__input-comment:focus {
       border: 1px solid #2196f3;
       border-radius: 4px;
       color: $border-color-tertiary;
@@ -67,22 +67,22 @@
     padding-left: 40px;
     border: 3 px solid #2196f3;
   }
-  &__checkbox__control {
+  &__checkbox-control {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     cursor: pointer;
 
-    &__checkbox__control:checked {
+    &__checkbox-control:checked {
       border-color: $border-color-active;
       background-color: $backgroud-color-active;
     }
   }
-  &__checkbox__input {
+  &__checkbox-input {
     width: 16px;
     height: 15px;
   }
-  &__checkbox__label {
+  &__checkbox-label {
     border: 2px solid #212121;
     border-radius: 2px;
     position: absolute;
@@ -90,7 +90,7 @@
     height: 15px;
     cursor: pointer;
 
-    &__checkbox__label::after {
+    &__checkbox-label::after {
       content: "";
       position: absolute;
       display: block;
@@ -110,31 +110,31 @@
     text-decoration-line: underline;
     line-height: 1.7;
   }
-  &__button__box {
+  &__button-box {
     display: flex;
     justify-content: center;
   }
-  &__button__submit {
+  &__button-submit {
     text-align: center;
     padding: 10px 76px;
     margin: 30px 0 40px 0;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
   }
-  &__button__close {
+  &__button-close {
     background-color: $backgroud-color-secondary;
     position: absolute;
     left: 490px;
     top: 8px;
   }
-  &__button__icon {
+  &__button-icon {
     fill: #000000;
   }
-  &__checkbox__input:checked + &__checkbox__label {
+  &__checkbox-input:checked + &__checkbox-label {
     border-color: var(--bgcolor-active);
     background-color: var(--bgcolor-active);
   }
-  &__checkbox__input:checked + &__checkbox__label::after {
+  &__checkbox-input:checked + &__checkbox-label::after {
     border-color: #fff;
   }
 }

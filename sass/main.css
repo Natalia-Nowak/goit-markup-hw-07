@@ -15,7 +15,10 @@
   color: #ffffff;
 }
 
-.header__primary, .clients, .team__header, .service__header {
+.header__primary,
+.clients,
+.team__header,
+.service__header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -23,13 +26,16 @@
   margin-bottom: 50px;
 }
 
-.header__secondary, .advantages__header {
+.header__secondary,
+.advantages__header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
 }
 
-.button__primary, .footer__button, .hero__button {
+.button__primary,
+.footer__button,
+.hero__button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: #2196f3;
@@ -51,7 +57,8 @@
 .button__secondary:hover {
   background: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .menu__container {
@@ -111,7 +118,9 @@
   color: #757575;
   font-size: 14px;
 }
-.menu__address__container:hover > svg *, .menu__address__container:hover .menu__address__link, .menu__address__container:hover {
+.menu__address__container:hover > svg *,
+.menu__address__container:hover .menu__address__link,
+.menu__address__container:hover {
   fill: #2196f3;
   color: #2196f3;
   cursor: pointer;
@@ -119,7 +128,12 @@
 
 .hero {
   background: #2f303a;
-  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner-image.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/banner-image.jpg");
   background-size: cover;
 }
 .hero__container {
@@ -201,7 +215,8 @@
 }
 .team__block {
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
 }
@@ -232,7 +247,8 @@
   width: 44px;
   height: 44px;
 }
-.team__sm__link:hover > svg *, .team__sm__link:hover {
+.team__sm__link:hover > svg *,
+.team__sm__link:hover {
   border-radius: 50px;
   background-color: #2196f3;
   fill: #ffffff;
@@ -258,7 +274,8 @@
   align-items: center;
   cursor: pointer;
 }
-.clients__block:hover > svg *, .clients__block:hover {
+.clients__block:hover > svg *,
+.clients__block:hover {
   border: 1px solid #2196f3;
   fill: #2196f3;
 }
@@ -282,7 +299,8 @@
 .portfolio__button:hover {
   background: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio__post__list {
   display: flex;
@@ -297,7 +315,8 @@
   border: 1px solid #eeeeee;
 }
 .portfolio__list__item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 .portfolio__card:hover {
@@ -312,7 +331,7 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .portfolio__description {
   position: absolute;
@@ -440,7 +459,8 @@
   width: 528px;
   background: #fff;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 .modal__form {
@@ -549,7 +569,8 @@
   text-align: center;
   padding: 10px 76px;
   margin: 30px 0 40px 0;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .modal__button__close {
   background-color: #ffffff;
@@ -640,4 +661,4 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   letter-spacing: 0.03em;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
