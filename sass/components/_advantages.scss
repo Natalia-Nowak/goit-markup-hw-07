@@ -16,7 +16,11 @@
   &__icon {
     margin: 25px 0;
   }
-  @extend .header__secondary;
+  &__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+  }
   &__description {
     color: $text-color-tertiary;
     font-weight: $font-weight-primary;

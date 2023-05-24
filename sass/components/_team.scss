@@ -1,6 +1,13 @@
 .team {
   background: $backgroud-color-quaternary;
-  @extend .header__primary;
+
+  &__header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 50px;
+  }
   &__list {
     display: flex;
     justify-content: space-between;
